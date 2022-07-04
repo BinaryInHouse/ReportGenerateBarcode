@@ -67,7 +67,7 @@ namespace ReportGenerateBarcode
             this.txtCodCategoria.MaxLength = 4;
             this.txtCodCategoria.Name = "txtCodCategoria";
             this.txtCodCategoria.Size = new System.Drawing.Size(136, 22);
-            this.txtCodCategoria.TabIndex = 1;
+            this.txtCodCategoria.TabIndex = 2;
             this.txtCodCategoria.TextChanged += new System.EventHandler(this.txtBarcode_TextChanged);
             // 
             // quantityBarcode
@@ -76,7 +76,7 @@ namespace ReportGenerateBarcode
             this.quantityBarcode.Location = new System.Drawing.Point(226, 86);
             this.quantityBarcode.Name = "quantityBarcode";
             this.quantityBarcode.Size = new System.Drawing.Size(136, 22);
-            this.quantityBarcode.TabIndex = 2;
+            this.quantityBarcode.TabIndex = 3;
             // 
             // pictureBox
             // 
@@ -93,7 +93,7 @@ namespace ReportGenerateBarcode
             this.txtCodProducto.MaxLength = 4;
             this.txtCodProducto.Name = "txtCodProducto";
             this.txtCodProducto.Size = new System.Drawing.Size(136, 22);
-            this.txtCodProducto.TabIndex = 4;
+            this.txtCodProducto.TabIndex = 1;
             // 
             // label1
             // 
@@ -133,7 +133,7 @@ namespace ReportGenerateBarcode
             this.txtBarcode.Name = "txtBarcode";
             this.txtBarcode.ReadOnly = true;
             this.txtBarcode.Size = new System.Drawing.Size(136, 22);
-            this.txtBarcode.TabIndex = 8;
+            this.txtBarcode.TabIndex = 4;
             // 
             // label4
             // 
@@ -194,7 +194,7 @@ namespace ReportGenerateBarcode
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBarcode;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
+        public System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 
