@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportGenerateBarcode", "ReportGenerateBarcode\ReportGenerateBarcode.csproj", "{B9BCACB2-4226-4354-84D8-49AFA790AFDC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupBarcode", "SetupBarcode\SetupBarcode.vdproj", "{F7F6AB90-91EE-46EC-B9E4-D80EA408C38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{B9BCACB2-4226-4354-84D8-49AFA790AFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9BCACB2-4226-4354-84D8-49AFA790AFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9BCACB2-4226-4354-84D8-49AFA790AFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F6AB90-91EE-46EC-B9E4-D80EA408C38B}.Debug|Any CPU.ActiveCfg = Debug
+		{F7F6AB90-91EE-46EC-B9E4-D80EA408C38B}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
